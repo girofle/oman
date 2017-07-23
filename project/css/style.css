@@ -58,12 +58,13 @@ a {
 }
 
 .caption > p {
-    font: normal 1.2rem 'Tenor Sans', sans-serif;
+    font: normal 1.4rem 'Tenor Sans', sans-serif;
 }
 
 .caption > h3{
 
     font: bolder 1em 'Tenor Sans', sans-serif;
+    
 }
 
 
@@ -75,13 +76,18 @@ a {
 
 .btn-read {
     width: 85px;
-    height: 20px;
+    height: 22px;
     background-color: #D38B5D;
-    font: normal 1em 'Tenor Sans', sans-serif;
+    font: normal 1.2rem 'Tenor Sans', sans-serif;
     border: none;
     text-align: center;
     
 }
+
+.card-block {
+    font: normal 1.2rem 'Tenor Sans', sans-serif;
+}
+
 
 .btn-read:hover {
    
