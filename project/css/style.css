@@ -22,6 +22,7 @@ body {
 .navbar-default {
     background-color: #fff;
     width: 100%;
+    border: none;
    
 }
 
@@ -31,32 +32,62 @@ body {
     
 }
 
+
+
 .nav-pills{
-
     display: flex;
-    flex-direction: column;
+    align-content: center;
+    align-items: center;
     justify-content: space-around;
-    flex-flow: nowrap;
-    
+    flex-flow: row nowrap;
+ 
 }
-
-
-    
 
 
 a {
     color: #000;
 }
 
-.section-overview {
-    border-top-color: #000;
+.overview-section {
+    border-bottom: solid 1.5px #000;
     border-top-style: outset;
+    border-top: solid 1.5px #000;
+    border-bottom-style: outset;
+    margin-bottom: 40px;
     
 }
-.row-thumbnail 
-  
 
- 
-   
-.img-object 
+.caption > p {
+    font: normal 1.2rem 'Tenor Sans', sans-serif;
+}
+
+.caption > h3{
+
+    font: bolder 1em 'Tenor Sans', sans-serif;
+}
+
+
+
+
+.hide {
+    display: none;
+}
+
+.btn-read {
+    width: 85px;
+    height: 20px;
+    background-color: #D38B5D;
+    font: normal 1em 'Tenor Sans', sans-serif;
+    border: none;
+    text-align: center;
     
+}
+
+.btn-read:hover {
+   
+    background-color: #E7BFA6;
+}
+
+.btn-read:visited {
+    background-color: #D38B8D;
+}
