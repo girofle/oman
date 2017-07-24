@@ -26,6 +26,8 @@ body {
    
 }
 
+
+
 .nav-fixed-top {
     font: bolder 1em 'Abel', sans-serif;
     text-align: center;
@@ -48,6 +50,16 @@ a {
     color: #000;
 }
 
+.headline {
+    font: bolder;
+    border-top: inset 1.5px #000
+}
+
+.headline-container > p {
+    
+    border-bottom: inset 1.5px #000;
+}
+
 .overview-section {
     border-bottom: solid 1.5px #000;
     border-top-style: outset;
@@ -58,7 +70,7 @@ a {
 }
 
 .caption > p {
-    font: normal 1.4rem 'Tenor Sans', sans-serif;
+    font: normal 1.6rem 'Abel', sans-serif;
 }
 
 .caption > h3 {
@@ -85,13 +97,13 @@ a {
 
 
 .card-block {
-    font: normal 1.2rem 'Tenor Sans', sans-serif;
+    font: normal 1.5rem 'Abel', sans-serif;
 }
 
 .btn-read {
     width: 85px;
     height: 22px;
-    font: normal 1.2rem 'Tenor Sans', sans-serif;
+    font: bolder 1.3rem 'Abel', sans-serif;
     background-color: #D38B5D;
     border: none;
     text-align: center;
@@ -111,3 +123,18 @@ a {
 .btn-read:visited {
     background-color: #E5989B;
 }
+
+.media-heading {
+    font: bolder 1.2em 'Tenor Sans', sans-serif;
+    text-align: left;
+}
+
+.media-body {
+    font: normal 1.8rem 'Abel', sans-serif;
+    height: 250px;
+    width: 750px;
+    
+
+}
+
+
