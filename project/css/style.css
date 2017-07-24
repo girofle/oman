@@ -61,39 +61,53 @@ a {
     font: normal 1.4rem 'Tenor Sans', sans-serif;
 }
 
-.caption > h3{
-
+.caption > h3 {
     font: bolder 1em 'Tenor Sans', sans-serif;
-    
+  
 }
 
 
 
 
-.hide {
-    display: none;
-}
-
-.btn-read {
-    width: 85px;
-    height: 22px;
-    background-color: #D38B5D;
-    font: normal 1.2rem 'Tenor Sans', sans-serif;
+.thumbnail {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: flex-start;
+    width: 360px;
+    height: 465px;
     border: none;
-    text-align: center;
-    
 }
+
+
+
+
+
 
 .card-block {
     font: normal 1.2rem 'Tenor Sans', sans-serif;
 }
 
+.btn-read {
+    width: 85px;
+    height: 22px;
+    font: normal 1.2rem 'Tenor Sans', sans-serif;
+    background-color: #D38B5D;
+    border: none;
+    text-align: center;
+    
+}
+
 
 .btn-read:hover {
-   
     background-color: #E7BFA6;
 }
 
-.btn-read:visited {
+.btn-read:active {
     background-color: #D38B8D;
+    opacity: 1;
+}
+
+.btn-read:visited {
+    background-color: #E5989B;
 }
