@@ -83,7 +83,9 @@ h3.headline {
   
 }
 
-
+.carousel-caption > p {
+    font: bolder 1.6rem 'Abel', sans-serif;
+}
 
 
 .thumbnail {
@@ -146,6 +148,7 @@ h3.headline {
 .media-heading {
     font: bolder 1.2em 'Tenor Sans', sans-serif;
     text-align: center;
+    padding-top: 40px;
     
 }
 
@@ -153,22 +156,16 @@ h3.headline {
     font: normal 1.8rem 'Abel', sans-serif;
     height: 250px;
     width: 750px;
-    display: inline-flex;
-    flex-flow: row;
-    align-items: center;
-    align-content: center;
-    
 
 }
 
-.carousel-control.left
-			{
-				background: none;
-			}
-			.carousel-control.right
-			{
-				background: none;
-			}
+.carousel-control.left {
+    background: none;
+}
+			
+.carousel-control.right {
+	background: none;
+}
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
        
