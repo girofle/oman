@@ -58,8 +58,13 @@ a {
 .headline-container > p {
     
     border-bottom: inset 1.5px #000;
+    padding-bottom: 20px;
+    
 }
 
+h3.headline {
+    padding-top: 20px;
+}
 .overview-section {
     border-bottom: solid 1.5px #000;
     border-top-style: outset;
@@ -87,12 +92,26 @@ a {
     align-content: center;
     align-items: flex-start;
     width: 360px;
-    height: 465px;
+    height: 450px;
     border: none;
+    padding-top: 20px;
+}
+
+.thumbnail-tips > img {
+    background-color: #fff;
 }
 
 
-
+.round {
+    width: 340px;
+	height: 340px;
+	border-radius: 170px;
+	-webkit-border-radius: 170px;
+	-moz-border-radius: 170px;
+	background: url(../images/frankincense.jpg) no-repeat;
+	padding-top: 40px;
+	margin-left: 20px;
+}
 
 
 
@@ -126,15 +145,59 @@ a {
 
 .media-heading {
     font: bolder 1.2em 'Tenor Sans', sans-serif;
-    text-align: left;
+    text-align: center;
+    
 }
 
 .media-body {
     font: normal 1.8rem 'Abel', sans-serif;
     height: 250px;
     width: 750px;
+    display: inline-flex;
+    flex-flow: row;
+    align-items: center;
+    align-content: center;
     
 
 }
 
+.carousel-control.left
+			{
+				background: none;
+			}
+			.carousel-control.right
+			{
+				background: none;
+			}
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+       
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-position: center center;
+        background-size: cover;
+        min-width: 100%;
+        width: 500px;
+        max-width: 100%;
+        height: 30%;
+        line-height: 0.5;
+}
+
+
+
+
+
+
+
+
+
+.bs-example{
+	margin: 20px;
+}
+
+.row-carousel {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
