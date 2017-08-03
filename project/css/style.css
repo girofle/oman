@@ -15,9 +15,18 @@ body {
 }
 
 .jumbotron p {
-    font-family: 'Tenor Sans', sans-serif;
-    
+    font: bolder 2.2rem 'Tenor Sans', sans-serif;
+    color: #fff;
+    text-shadow: 3px 2px 1px #AD8350;
+    text-align: center;
 }
+
+small {
+    text-shadow: none;
+    font-weight: normal;
+    text-align: right;
+}
+
 
 .navbar-default {
     background-color: #fff;
@@ -51,29 +60,33 @@ a {
 }
 
 .headline {
-    font: bolder;
-    border-top: inset 1.5px #000
+    font-weight: bolder;
+    border-top: inset 1.5px #000;
+     
+}
+
+.headline-container {
+    border-bottom: inset 1.5px #000;
+    padding-bottom: 10px;
 }
 
 .headline-container > p {
-    
-    border-bottom: inset 1.5px #000;
-    padding-bottom: 20px;
-    
+    text-align: left;
+    font:normal 1.8rem 'Abel', sans-serif;
 }
 
 h3.headline {
     padding-top: 20px;
 }
 .overview-section {
-    border-bottom: solid 1.5px #000;
-    border-top-style: outset;
-    border-top: solid 1.5px #000;
-    border-bottom-style: outset;
+    text-align: left;
     margin-bottom: 40px;
     
 }
 
+h4 {
+    font: normal 1.5rem 'Tenor Sans', sans-serif;
+}
 .caption > p {
     font: normal 1.6rem 'Abel', sans-serif;
 }
@@ -98,7 +111,7 @@ h3.headline {
     width: 360px;
     height: 450px;
     border: none;
-    padding-top: 20px;
+    margin-top: 40px;
 }
 
 .thumbnail-tips > img {
@@ -125,7 +138,7 @@ h3.headline {
 
 .btn-read {
     width: 85px;
-    height: 22px;
+    height: 25px;
     font: bolder 1.3rem 'Abel', sans-serif;
     background-color: #D38B5D;
     border: none;
