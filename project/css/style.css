@@ -152,12 +152,12 @@ h4 {
 }
 
 .btn-read:active {
-    background-color: #D38B8D;
-    opacity: 1;
+    background-color: #AD8350;
+    
 }
 
 .btn-read:visited {
-    background-color: #E5989B;
+    background-color: #F05D23;
 }
 
 .media-heading {
@@ -168,7 +168,7 @@ h4 {
 }
 
 .media-body {
-    font: normal 1.8rem 'Abel', sans-serif;
+    font: normal 2rem 'Abel', sans-serif;
     height: 250px;
     width: 750px;
 
