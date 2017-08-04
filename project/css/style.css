@@ -99,11 +99,12 @@ h4 {
 .carousel-caption > p {
     font: bolder 1.6rem 'Abel', sans-serif;
     
+    
 
 }
 
 
-.thumbnail {
+.thumbnail-sights {
     display: inline-flex;
     flex-flow: row wrap;
     align-content: center;
@@ -118,6 +119,15 @@ h4 {
     background-color: #fff;
 }
 
+.row-tips {
+    font: normal 1em 'Abel', sans-serif;
+   
+}
+
+.caption-weather > h3 {
+     margin: 0;
+    padding: 0;
+}
 
 .round {
     width: 340px;
