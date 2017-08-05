@@ -98,13 +98,11 @@ h4 {
 
 .carousel-caption > p {
     font: bolder 1.6rem 'Abel', sans-serif;
-    
-    
-
+ 
 }
 
 
-.thumbnail-sights {
+.thumbnail {
     display: inline-flex;
     flex-flow: row wrap;
     align-content: center;
@@ -136,7 +134,7 @@ h4 {
 	-webkit-border-radius: 170px;
 	-moz-border-radius: 170px;
 	background: url(../images/frankincense.jpg) no-repeat;
-	padding-top: 40px;
+	margin-top: 20px;
 	margin-left: 20px;
 }
 
@@ -223,4 +221,12 @@ h4 {
 .row-carousel {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+
+@media (max-width:468px), not landscape {
+    .carousel-caption > p { 
+        display: none;
+        
+    }
 }
