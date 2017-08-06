@@ -76,14 +76,17 @@ a {
     padding-bottom: 10px;
 }
 
+h3.headline {
+    padding-top: 20px;
+    font: bolder 1.8em 'Tenor Sans', sans-serif;
+}
+
 .headline-container > p {
     text-align: left;
     font:normal 2rem 'Abel', sans-serif;
 }
 
-h3.headline {
-    padding-top: 20px;
-}
+
 
 span::first-letter {
     color: #000;
@@ -162,7 +165,7 @@ h4 {
     
 }
 
-.thumbnail-tips > img {
+.row-tips > img {
     background-color: #fff;
     border: none;
     margin: 0px;
@@ -264,14 +267,6 @@ h2 {
     
 }
 
-
-
-
-
-
-
-
-
 .bs-example{
 	margin: 20px;
 }
@@ -293,6 +288,29 @@ h2 {
 	width: 170px;
 	height: 170px;
     }
-        
+    
+   .row-tips {
+        display: flex;
+        flex-direction: column;
+        }
+ 
+}
 
+@media (max-width: 768px) {
+    .row-tips {
+        display: flex;
+        flex-direction: column;
+        }
+} 
+    
+
+ul {
+ list-style: circle;
+}
+
+li  {
+    
+    font: normal 1.8rem 'Abel', sans-serif;
+    
+    
 }
