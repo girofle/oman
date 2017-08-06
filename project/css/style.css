@@ -128,7 +128,7 @@ h4 {
     font: normal 1.5rem 'Tenor Sans', sans-serif;
 }
 .caption > p {
-    font: normal 1.8rem 'Abel', sans-serif;
+    font: normal 1.7rem 'Abel', sans-serif;
 }
 
 .caption > h3 {
@@ -161,7 +161,7 @@ h4 {
     height: 450px;
     border: none;
     margin-top: 40px;
-    padding: 5px;
+    
     
 }
 
@@ -202,7 +202,8 @@ h2 {
 
 
 .card-block {
-    font: normal 1.5rem 'Abel', sans-serif;
+    font: bold 1.58rem 'Abel', sans-serif;
+
 }
 
 .btn-read {
