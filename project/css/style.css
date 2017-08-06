@@ -1,6 +1,12 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.7-rc2/css/bootstrap-glyphicons.css");
+
+
+
+
 html {
    box-sizing: border-box;
 }
+
 
 body {
     font: normal 1.8em 'Tenor Sans', sans-serif;
@@ -72,12 +78,38 @@ a {
 
 .headline-container > p {
     text-align: left;
-    font:normal 1.8rem 'Abel', sans-serif;
+    font:normal 2rem 'Abel', sans-serif;
 }
 
 h3.headline {
     padding-top: 20px;
 }
+
+span::first-letter {
+    color: #000;
+    font: bold 2em 'Montserrat Subrayada', sans-serif;
+    line-height: 0.5;
+ }
+ 
+.intro {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 30px;
+}
+    
+
+.intro > img {
+    flex: 0 1 auto;
+    margin: 5px 15px 0px 15px;
+    
+}
+
+
+
 .overview-section {
     text-align: left;
     margin-bottom: 40px;
@@ -99,8 +131,8 @@ h4 {
 
 .carousel-caption > p {
     font: bolder 1.8rem 'Tenor Sans', sans-serif;
-     text-shadow: 3px 2px 1px #5A352A;
-    color: #fff ;
+     text-shadow: 3px 6px 6px #5A352A 2px 2px 10px #fff;
+    
 
 }
 
@@ -146,7 +178,7 @@ h2 {
     padding: 0;
 }
 
-.round {
+.round-img {
     width: 340px;
 	height: 340px;
 	border-radius: 170px;
