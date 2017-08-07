@@ -1,10 +1,7 @@
 $(document).ready(function(){
+  
    
- $('.collapse').collapse()
-   
-   
-   
-   
+   $('.collapse').collapse() 
    
    
    

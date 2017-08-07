@@ -42,10 +42,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav nav-pills nav-top-fixed">
-  <li role="presentation"><a href="#">Overview</a></li>
-  <li role="presentation"><a href="#">Things to do</a></li>
-  <li role="presentation"><a href="#">Travel Tips</a></li>
-  <li role="presentation"><a href="#">Gallery</a></li>
+  <li role="presentation"><a href="#overview">Overview</a></li>
+  <li role="presentation"><a href="#landmark">Things to do</a></li>
+  <li role="presentation"><a href="#planning">Travel Tips</a></li>
+  <li role="presentation"><a href="#gallery">Gallery</a></li>
   </ul>
          </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -54,27 +54,30 @@
     
 
       <div class="content-container">
+       <a id="name"></a>
       
       <div class ="content-wrapper">
         <div class="row">
         <div class="jumbotron">
+          
             <h1>Discover Oman</h1>
       <p>A hidden gem on the southeastern coast of the Arabian Peninsula where tradition and modernity live in harmony.  
       <small>Oman has carefully avoided overdevelopment. The architecture of its low-rise towns retain their traditional charms and Bedouin values of hospitality. Oman's magical natural beauty will enchant any traveler from spectacular mountains, wind-blown deserts to a pristine coastline.
       </small>
       </p>
-        
+         
       </div>
       </div>
         
         <div class="section-overview">
           <div class="row">
+             
          <div class="col-md-12 col-xs-12 col-sm-12 text-center">
               
                     <div class="headline-container">
                     
-            <h3 class="headline">History &amp; Geography
-</h3>
+            <a id="overview"><h3 class="headline">History &amp; Geography</h3></a>
+
     <p class="intro">
     
       
@@ -89,9 +92,9 @@
       
       </div>
       
-      <div class="row-thumbnail thumbnail-sights">
+       <div class="row-thumbnail thumbnail-sights">
      <div class="col-xs-12 col-md-4">
-      <div class="thumbnail">
+     <a id="landmark"><div class="thumbnail"></a>
       <img src="images/muscat.jpg" alt="muscat">
       <div class="caption">
         <h3>Muscat</h3>
@@ -213,6 +216,7 @@
     </div>
     </div>
     
+    
     <div class="row-carousel col-sm-12 col-md-12">
  <div class="bs-example">
     <div id="myCarousel" class="carousel slide" data-interval="10000" data-ride="carousel">
@@ -223,7 +227,7 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>   
         <!-- Wrapper for carousel items -->
-        <div class="carousel-inner">
+        <a id="gallery"><div class="carousel-inner"></a>
             <div class="active item">
                 <img src="images/alalampalace.jpg" alt="Al Alam Palace">
          		<div class="carousel-caption">
@@ -440,7 +444,7 @@
     <!---row carousel--->   
    
    
-  <div class= "tips-section-container">
+  <a id="planning"><div class= "tips-section-container"></a>
     
       <div class="row-tips">
   <div class="col-xs-6 col-md-3">
@@ -498,14 +502,17 @@
     </div>
   </div>
   
+  
+  
   <div class="col-xs-6 col-md-3">
+    
     
       <img src="images/sights.jpg" alt="Oman map icon">
     
     <div class="caption-places">
     <h2>What to See </h2>
         <p> Top five not to be missed.
-            <ul>
+            <ul class="places">
               <li>Visit the<strong>Sultan Quaboos Grand Mosque</strong>: the magnificent mosque is the only one in the country open to non-Muslims, Saturdays through Thursdays between 8am to 11am .</li>
                 <li><strong>Diving</strong>to explore an unspoiled underwater paradise of colorful corals and incredible marine life.</li>        
                 <li>Don't miss<strong>Misfat Al Abryeen</strong>, one of Oman’s oldest villages: a cluster of antiquated mudbrick houses nestled in the Green Mountain, Jebel Akhar.</li>
@@ -513,21 +520,23 @@
               <li>Explore<strong>Al Ayn's Bronze Age beehive tombs </strong> on the edge of the Western Hajar. Listed on UNESCO's World Heritage as one of the most complete and well preserved clusters of settlements and necropolises from the 3rd millennium BC in the world.</li>
               </ul>
           </p>
-    
+          <a href="index.html">Back to Top</a>
+      </div>
     </div>
-  </div>
  
-</div>
+  </div>
 
-    </div>
+  </div>
     
-    </div>
-   
-        </div>
+  </div>
+
+</div>
+        
+        
       <div id="footer">
         <div class="bs-example">
     <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
+        <div class="panel Mypanel">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">About Us</a>
@@ -540,7 +549,7 @@
                 </div>
             </div>
         </div>
-        <div class="panel panel-default">
+        <div class="panel Mypanel">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Contact Us</a>
@@ -550,7 +559,7 @@
                 <div class="panel-body">
                     <p>Share your travel stories and pictures. Send us your comments and suggestions</p> 
           
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Email Us</button>
+          <button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Email Us</button>
           
           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
   <div class="modal-dialog" role="document">
@@ -593,17 +602,7 @@
             </div>
         </div>
         <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
-                </div>
-            </div>
-        </div>
+            
     </div>
 	
   </div>
@@ -630,6 +629,7 @@
     
     
     
+
     
    <!---site-container--->
     </div>     

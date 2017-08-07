@@ -49,6 +49,10 @@ small {
     
 }
 
+.a:hover {
+    background-color: #E7BFA6;
+    
+}
 
 
 .nav-pills{
@@ -305,13 +309,49 @@ h2 {
 } 
     
 
-ul {
+.places {
  list-style: circle;
 }
 
-li  {
+.places > li  {
     
     font: normal 1.8rem 'Abel', sans-serif;
-    
+
+}
+
+.panel-heading {
+    background-color: #F3DDC2;
+    color: #8F6939;
+}
+
+.panel-title {
+    font: bolder 1.6em 'Tenor Sans', sans-serif;
     
 }
+
+.panel-body {
+    font: normal 2rem 'Abel', sans-serif;
+    margin-top: 40px; 
+    
+}
+
+
+
+.btn-modal {
+    font: bolder 2rem 'Abel', sans-serif;
+    border: none;
+    background-color: #3CDBD3;
+}
+
+.caption-places > a {
+    width: 10px;
+    height: 10px;
+    align-self: flex-start;
+    flex: 0 1 auto ;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #8D818C;
+} 
+
+
+
